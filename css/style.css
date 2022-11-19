@@ -1,17 +1,22 @@
+/*--------------Configurações gerais-----------------*/
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-.hero{
-    height: 100vh;
-    width: 100%;
+body{    
     background-color: black;
+}
+
+/*--------------início do cabeçalho--------------*/
+
+.cabecalho{
+    height: 200px;
+    width: 100%;
 }
 .logo{
     width: 140px;
-    height: auto;
     cursor: pointer;
 }
 nav{
@@ -40,13 +45,16 @@ nav ul li a:hover{
     color: #803dff;
     transition: .3s;
 }
-.main-text{
-    position: absolute;
-    top: 50%;
-    left: 12%;
-    transform: translateY(-50%);
+
+/*---------------Fim do cabeçalho------------------*/
+
+/*------------início da section apresentação---------*/
+
+.art_apresentacao{
+    width: 90vw;
+    margin: auto;
 }
-.main-text h1{
+.art_apresentacao h1{
     font-size: 140px;
     color: #3c3c3c;
     font-weight: 800;
@@ -56,7 +64,7 @@ span{
     color: white;
     letter-spacing: 2px;
 }
-.main-text p{
+.art_apresentacao p{
     color: #737373;
     font-weight: 500;
     font-size: 22px;
@@ -88,13 +96,5 @@ button:hover{
     align-items: center;
     justify-content: space-between;
 }
-.main-img{
-    position: fixed;
-    width: 50%;
-    height: 100%;bottom: 0;
-    right: 0;
-    text-align: right;
-}
-.main-img img{
-    height: 89%;
-}
+
+/*-------Fim da section apresentação---------*/
