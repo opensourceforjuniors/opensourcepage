@@ -60,16 +60,16 @@ nav ul li a:hover{
 }
 .art_apresentacao h1{
     font-size: 140px;
-    color: #3c3c3c;
+    color: #fff;
     font-weight: 800;
     line-height: 170px;
 }
 span{
-    color: white;
+    color: #fff;
     letter-spacing: 2px;
 }
 .art_apresentacao p{
-    color: #737373;
+    color: #fff;
     font-weight: 500;
     font-size: 22px;
     letter-spacing: 1px;
@@ -103,13 +103,119 @@ button:hover{
 
 /*-------Fim da section apresentação---------*/
 
-/*-------Texto- 1 ---------*/
 
-.text-2 {
+/*------- post-filter ---------*/
+
+.post-filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1.5rem;
+    margin-top: 10rem !important;
+}
+
+.filter-item {
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.active-filter {
+    background: #803dff;
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 4px;
+}
+
+/*------- Post ---------*/
+
+.post {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.post-box {
+    background: #fff;
+    box-shadow: 0 4px 14px hsl(355deg, 25% 10% / 10%);
+    padding: 15px;
+    border-radius: 0.5rem;
+    margin-top: 30px;
+}
+
+.post-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 0.5rem;
+}
+
+.category {
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #803dff;
+}
+
+.post-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #000;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.post-date {
+    display: flex;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 4px;
+    color: #000;
+}
+
+.post-desciption {
+    color: #000;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    margin: 5px 0 10px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile-img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    border: 2px solid #803dff ;
+}
+
+.profile-name {
+    color: #000;
+}
+
+/*-------Texto-1 ---------*/
+
+.text-1 {
     font-size: 50px;
     font-weight: 600;
     margin-left: -3px;
     color:#803dff;
     width: 100%;
 }
-    
+
+
