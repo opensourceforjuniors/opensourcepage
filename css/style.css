@@ -12,13 +12,17 @@ body{
 /*--------------início do cabeçalho--------------*/
 
 .cabecalho{
-    height: 200px;
+    height: 300px;
     width: 100%;
 }
 .logo{
     width: 140px;
     cursor: pointer;
 }
+.logo img {
+    margin-right: 30px;
+}
+
 nav{
     display: flex;
     align-items: center;
@@ -98,3 +102,14 @@ button:hover{
 }
 
 /*-------Fim da section apresentação---------*/
+
+/*-------Texto- 1 ---------*/
+
+.text-2 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-left: -3px;
+    color:#803dff;
+    width: 100%;
+}
+    
