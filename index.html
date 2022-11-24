@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Website Design</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Open Source 4 Juniors</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/media-queries.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/icone.png" type="image/x-icon">
 </head>
 <body>
     <header class="cabecalho">
@@ -28,18 +30,19 @@
             <article class="art_apresentacao">
               <div class="text-1"> Open source <span class="typing"></span></div>
               <p>Ajudar os DEVs menos experientes, com dúvidas sobre linguagem, novas tecnologías, dicas de processos seletivos, etc.</p>
-              <button type="button">about me <img src="img/arrow.png">
+              <button type="button" class="about"> Sobre </button>
             </article>
     </section>
 
     <!------------ Post Filter --------------->
+   
+    <div class="post-container">
+            <button class="filter-item" data-filter='All' id="all" onclick="changeColor('#803dff')">All</button>
+            <button class="filter-item" data-filter='front-end' id="front" onclick="changeColor('#803dff')">Front-end</button>
+            <button class="filter-item" data-filter='back-end' id="back" onclick="changeColor('#803dff')">Back-end</button>
+            <button class="filter-item" data-filter='mobile' id="mobile" onclick="changeColor('#803dff')"> Mobile</button>
+            <button class="filter-item" data-filter='design UI/UX' id="design" onclick="changeColor('#803dff')">Design UI/UX</button>
 
-    <div class="post-filter container">
-        <span class="filter-item active-filter" data-filter='All'>All</span>
-        <span class="filter-item" data-filter='front-end'>Front-end</span>
-        <span class="filter-item" data-filter='back-end'>Back-end</span>
-        <span class="filter-item" data-filter='mobile'>Mobile</span>
-        <span class="filter-item" data-filter='design UI/UX'>Design UI/UX</span>
     </div>
 
     <!------------ Post --------------->

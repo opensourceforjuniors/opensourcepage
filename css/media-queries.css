@@ -1,0 +1,44 @@
+@media only screen and (max-width: 660px) and (min-width: 320px){
+
+    .filter-item#front {
+        margin-left: -22px;
+        margin-top: -51px;
+        width: 110px;
+        height: 56px;
+        text-align: center;
+        margin-bottom: -65px;
+    }
+
+    .filter-item#back {
+        margin-left: 107px;
+        margin-top: -2px;
+        margin-bottom: -119px;
+        margin-top: 10px;
+        width: 112px;
+        height: 55px;
+    }
+
+    .filter-item#design {
+        margin-left: 51px;
+        margin-top: -82px;
+        width: 121px;
+        height: 51px;
+        
+    }
+
+    .filter-item#all {
+        margin-left: -107px;
+        margin-top: 44px;
+        width: 53px;
+        height: 51px;
+        margin-bottom: -25px;
+        text-align: center;
+    }
+    .filter-item#mobile{
+        margin-left: -67px;
+        margin-top: 151px;
+        margin-bottom: 26px;
+    }
+
+    
+}
