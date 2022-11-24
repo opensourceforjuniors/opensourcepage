@@ -1,2 +1,3 @@
-# opensourcepage
-Página não está responsiva , sugestão para possível melhoria . Deploy do projeto https://opensourceforjuniors.github.io/opensourcepage/
+## Open Source 4 Juniors
+
+Pagina criada para futuramente virar um blog para dev juniors
