@@ -1,21 +1,23 @@
 /*--------------Configurações gerais-----------------*/
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-body{    
+
+body {
     background-color: black;
 }
 
 /*--------------início do cabeçalho--------------*/
 
-.cabecalho{
+.cabecalho {
     height: 300px;
     width: 100%;
 }
-.logo{
+
+.logo {
     width: 201px;
     margin-left: -33px;
     cursor: pointer;
@@ -25,7 +27,7 @@ body{
     margin-right: 30px;
 }
 
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -35,19 +37,22 @@ nav{
     position: relative;
     z-index: 5;
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
     display: inline-block;
     padding: 0px 25px;
     z-index: 7;
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
     color: white;
     font-weight: 500;
     font-size: 17px;
 }
-nav ul li a:hover{
+
+nav ul li a:hover {
     color: #803dff;
     transition: .3s;
 }
@@ -56,21 +61,24 @@ nav ul li a:hover{
 
 /*------------início da section apresentação---------*/
 
-.art_apresentacao{
+.art_apresentacao {
     width: 90vw;
     margin: auto;
 }
-.art_apresentacao h1{
+
+.art_apresentacao h1 {
     font-size: 140px;
     color: #fff;
     font-weight: 800;
     line-height: 170px;
 }
-span{
+
+span {
     color: #fff;
     letter-spacing: 2px;
 }
-.art_apresentacao p{
+
+.art_apresentacao p {
     color: #fff;
     font-weight: 500;
     font-size: 22px;
@@ -78,7 +86,7 @@ span{
     margin: 40px 0px;
 }
 
-button{
+button {
     width: 160px;
     background-color: #803dff;
     padding: 15px 10px;
@@ -86,12 +94,13 @@ button{
     color: white;
     font-size: 18px;
     border-radius: 1rem;
-    
+
 }
 
-.about:hover{
+.about:hover {
     box-shadow: inset 0 0 1em rgb(163, 138, 238);
 }
+
 /*-------Fim da section apresentação---------*/
 
 
@@ -101,10 +110,10 @@ button{
     max-width: 100px;
     margin: 0 auto;
     text-align-last: justify;
-    
-  }
-  
-  .post-container button {
+
+}
+
+.post-container button {
     border: none;
     cursor: pointer;
     background: #000;
@@ -112,22 +121,24 @@ button{
     display: inline-flex;
     border: 1px solid #000;
     padding: 10px;
-  }
+}
+
 .post-container .filter-item {
     display: flex;
     column-gap: 4rem;
     margin-top: 1rem;
     align-content: space-between;
     font-size: 15px;
-    
+
 }
 
-.filter-item:hover{
-   background-color: #803dff;
-   color: rgb(255, 255, 255);
-   
+.filter-item:hover {
+    background-color: #803dff;
+    color: rgb(255, 255, 255);
+
 }
-.filter-item#all{
+
+.filter-item#all {
     margin-left: 76px;
     margin-top: 10px;
     width: 53px;
@@ -136,7 +147,7 @@ button{
     text-align: center;
 }
 
-.filter-item#front{
+.filter-item#front {
     margin-left: 152px;
     margin-top: 10px;
     width: 110px;
@@ -145,7 +156,7 @@ button{
     margin-bottom: -65px;
 }
 
-.filter-item#back{
+.filter-item#back {
     margin-left: 274px;
     margin-top: -2px;
     margin-bottom: -119px;
@@ -154,7 +165,7 @@ button{
     height: 55px;
 }
 
-.filter-item#mobile{
+.filter-item#mobile {
     margin-left: 401px;
     margin-top: 62px;
     margin-bottom: -55px;
@@ -162,7 +173,8 @@ button{
     height: 55px;
     text-align: center;
 }
-.filter-item#design{
+
+.filter-item#design {
     margin-left: 504px;
     margin-top: -28px;
     width: 121px;
@@ -173,9 +185,9 @@ button .filter-item {
     padding: 10px 0px;
     font-size: 10px;
     justify-content: baseline;
-    
-   
-   
+
+
+
 }
 
 
@@ -253,7 +265,7 @@ button .filter-item {
     border-radius: 50%;
     object-fit: cover;
     object-position: center;
-    border: 2px solid #803dff ;
+    border: 2px solid #803dff;
 }
 
 .profile-name {
@@ -266,8 +278,6 @@ button .filter-item {
     font-size: 50px;
     font-weight: 600;
     margin-left: -3px;
-    color:#803dff;
+    color: #803dff;
     width: 100%;
 }
-
-
