@@ -103,6 +103,74 @@ button {
 
 /*-------Fim da section apresentação---------*/
 
+/* ----------- Footer ---------------*/
+
+.footer {
+    list-style: none;
+    background-color: #504f50;
+    padding: 58px 0;
+    margin: -2rem;
+    margin-bottom: -71px;
+    margin-top: 6rem;
+    width: auto;
+    height: 270px;
+    margin-right: 0rem;
+}
+
+.footer .color {
+    background-color: #3d3d3d;
+    padding: 113px 0;
+    margin-top: -18px;
+    height: 101px;
+}
+
+.cont-name {
+    color: rgb(204, 201, 201);
+    margin: 3rem;
+    margin-top: -2rem;
+
+}
+
+.cont-name p {
+    margin-top: -30px;
+    font-size: 9px;
+}
+
+
+.cont-rede-social {
+    margin-bottom: 2rem;
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    margin: 0.3rem;
+    font-size: 15px;
+    line-height: 20px;
+
+}
+
+.cont-rede-social .segue {
+    color: rgb(204, 201, 201);
+    margin: 3rem;
+    margin-top: -63px;
+    font-size: 12px;
+    margin-left: 86px;
+}
+
+.cont-rede-social .rede {
+    margin-top: -35px;
+    margin-bottom: 54px;
+    margin-left: 50px;
+    justify-items: center;
+}
+
+.cont-rede-social .rede a {
+    color: #803dff;
+    font-size: 12px;
+}
+
+.cont-rede-social .rede :hover {
+    color: #9864fa;
+}
 
 /*------- post-filter ---------*/
 .post-container {
@@ -185,10 +253,9 @@ button .filter-item {
     padding: 10px 0px;
     font-size: 10px;
     justify-content: baseline;
-
-
-
 }
+
+
 
 
 /*------- Post ---------*/
