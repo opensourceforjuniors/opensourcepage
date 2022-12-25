@@ -1,3 +1,3 @@
-## Open Source 4 Juniors
+## Open Source for Juniors
 
-Pagina criada para futuramente virar um blog para dev juniors
+Criando uma página web com intuito de atrair novos desenvolvedores e juntar a comunidade dev.
